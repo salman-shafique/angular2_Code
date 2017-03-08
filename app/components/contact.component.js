@@ -13,15 +13,13 @@ var Contact = (function () {
     Contact.prototype.onSubmit = function (value) {
         console.log(value);
     };
-    Contact.prototype.consol = function () {
-        console.log('qwqw');
-    };
     return Contact;
 }());
 Contact = __decorate([
     core_1.Component({
         selector: 'contact',
         templateUrl: "./app/compTemplate/contact.component.html",
+        styles: [".invalid{color:#a94442}"]
     })
 ], Contact);
 exports.Contact = Contact;
